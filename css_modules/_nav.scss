@@ -1,0 +1,57 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  //   position: fixed;
+  background-color: white;
+
+  &__logo {
+    display: flex;
+    width: 8rem;
+    height: 2rem;
+    font-weight: bold;
+    align-items: center;
+    margin-left:3rem;
+
+    &__icon {
+      display: flex;
+      color: #619de3;
+      font-weight: 60;
+    }
+    &__text {
+      display: flex;
+      color: #374e88;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #374e88;
+    font-size: small;
+
+    &__item {
+      display: flex;
+      padding: 1rem;
+
+      &__icon {
+        display: flex;
+        height: 1rem;
+        margin-left: 0.5rem;
+      }
+    }
+    &__signup {
+      display: flex;
+      color: #374e88;
+      font-weight: bold;
+      background: #edf7fb;
+      padding: 0.5rem;
+      border-radius: 25%;
+      font-size: small;
+      margin-right: 6rem;
+    }
+  }
+}
